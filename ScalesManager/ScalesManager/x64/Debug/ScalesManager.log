@@ -1,0 +1,30 @@
+﻿Build started 24.08.2016 21:57:36.
+     1>Project "C:\Users\vevl\Documents\GitProjects\ScalesManager\ScalesManager\ScalesManager.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing scalesmanager.h...
+         Uic'ing scalesmanager.ui...
+         Rcc'ing scalesmanager.qrc...
+     1>RCC : warning : No resources in 'C:\Users\vevl\Documents\GitProjects\ScalesManager\ScalesManager\scalesmanager.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.6\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.6\msvc2013_64\include\QtCore /IC:\Qt\5.6\msvc2013_64\include\QtGui /IC:\Qt\5.6\msvc2013_64\include\QtNetwork /IC:\Qt\5.6\msvc2013_64\include\QtWidgets /IC:\Qt\5.6\msvc2013_64\include\QtXml /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_scalesmanager.cpp main.cpp scalesmanager.cpp
+         moc_scalesmanager.cpp
+         main.cpp
+         scalesmanager.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.6\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.6\msvc2013_64\include\QtCore /IC:\Qt\5.6\msvc2013_64\include\QtGui /IC:\Qt\5.6\msvc2013_64\include\QtNetwork /IC:\Qt\5.6\msvc2013_64\include\QtWidgets /IC:\Qt\5.6\msvc2013_64\include\QtXml /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_scalesmanager.cpp
+         qrc_scalesmanager.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\ScalesManager.res" ScalesManager.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vevl\Documents\GitProjects\ScalesManager\x64\Debug\\ScalesManager.exe" /NOLOGO /LIBPATH:C:\Qt\5.6\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Widgetsd.lib Qt5Xmld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vevl\Documents\GitProjects\ScalesManager\x64\Debug\ScalesManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vevl\Documents\GitProjects\ScalesManager\x64\Debug\ScalesManager.lib" /MACHINE:X64 x64\Debug\ScalesManager.res
+         x64\Debug\moc_scalesmanager.obj
+         x64\Debug\qrc_scalesmanager.obj
+         x64\Debug\main.obj
+         x64\Debug\scalesmanager.obj
+         ScalesManager.vcxproj -> C:\Users\vevl\Documents\GitProjects\ScalesManager\x64\Debug\ScalesManager.exe
+     1>Done Building Project "C:\Users\vevl\Documents\GitProjects\ScalesManager\ScalesManager\ScalesManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.75
